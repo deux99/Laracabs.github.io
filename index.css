@@ -29,15 +29,7 @@ h3,
 p{
     margin:0;
 }
-.heading-1,
-.p1{
-    color: #23282c;
-}
 
-.heading-3{
-    color: #adb5bd;
-    font-size: 30px;
-}
 h1,
 h2,
 h3{
@@ -144,6 +136,11 @@ section{
 .taxi{
     display: block;
     max-width: 100%;
+
+}
+.logo{
+    max-width: 30%;
+    max-height: 30%;
 }
 .preloader{
     background: white ;
@@ -165,7 +162,7 @@ section{
     background: hsl(0, 100%, 60%);;
     padding: 15px;
     border-radius: 20px;
-    box-shadow:0 0 12px;
+    
     margin-bottom: 20px;
     text-align: center;
 }
