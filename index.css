@@ -1,0 +1,171 @@
+:root{
+  
+    --ff-primary: "Barlow", sans-serif;
+    --ff-accent: "Roboto", sans-serif;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing:inherit;
+}
+
+body{
+    font-family: var(--ff-primary);
+    font-weight: 1000;
+    font-size: 20px;
+    line-height: 1.6;
+
+}
+
+hr{
+    width: 40%;
+    background-color: yellow;
+}
+body,
+h1,
+h2,
+h3,
+p{
+    margin:0;
+}
+.heading-1,
+.p1{
+    color: #23282c;
+}
+
+.heading-3{
+    color: #adb5bd;
+    font-size: 30px;
+}
+h1,
+h2,
+h3{
+   
+    font-family: var(--ff-accent);
+    font-weight: 800;
+    line-height: 1;
+    color: black;
+}
+
+h2,
+h3,
+p {
+    margin-bottom: 1em;
+}
+
+
+.text-left{
+    text-align: center;
+}
+.text-center{
+    text-align: center;
+}
+section{
+    padding: 3rem 0;
+}
+.container {
+    margin-inline: auto;
+    width: min(90%, 70.5rem);
+}
+.split{
+    display: flex;
+    flex-direction: column;
+    
+}
+@media(min-width:40em){
+    .split{
+        flex-direction: row;
+    }
+    .split > * {
+        flex-basis: 100%;
+    }
+    .split > * + * {
+        margin-left: 3em;
+    }
+    .split{
+        text-align: center;
+    }
+    .text-left{
+        text-align: left;
+    }
+ 
+}
+.container--narrow{
+    max-width: 34rem;
+}
+
+
+
+
+
+.tel{
+    font-size: 50px;
+    font-weight: 1000;
+    color: red;
+    text-shadow: 0 0 2px red;
+}
+.neon-button{
+    font-size: 20px;
+    font-family: (--ff-accent);
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    background: hsl(0, 100%, 60%);
+    border:hsl(0, 100%, 60%) 0.125em solid;
+    padding: .25em 1em;
+    border-radius: 0.25em;
+    animation:button 1.25s ease-out infinite normal;
+
+    text-shadow: 
+    0 0 0.5em hsl(0, 100%, 60%),
+    0 0 0.5em currentColor;
+
+    box-shadow: inset 0 0 0.5em 0 hsl(0, 100%, 60%), 0 0 0.5em 0 hsl(0, 100%, 60%)
+}
+.neon-button:hover{
+    color: white;
+    background: hsl(0, 100%, 60%);
+}
+@keyframes button{
+    0%{
+        transform:scale(0.9);
+        
+    }
+    50%{
+        transform: scale(1.1);
+        
+    }
+    100%{
+        transform: scale(0.9);
+    }
+}
+.taxi{
+    display: block;
+    max-width: 100%;
+}
+.preloader{
+    background: white ;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+.preloader-image{
+    height: 20%;
+    width: 20%;
+    padding-top: 20%;
+    
+    
+}
+.card{
+    max-height: 100%;
+    max-width: 100%;
+    background: hsl(0, 100%, 60%);;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow:0 0 12px;
+    margin-bottom: 20px;
+    text-align: center;
+}
