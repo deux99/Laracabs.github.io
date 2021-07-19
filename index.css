@@ -139,8 +139,8 @@ section{
 
 }
 .logo{
-    max-width: 30%;
-    max-height: 30%;
+    max-width: 80%;
+    max-height: 80%;
 }
 .preloader{
     background: white ;
@@ -174,8 +174,4 @@ section{
 }
 .bgimg2{
     background: #d6d6d6;
-}
-.logo{
-    max-width: 80%;
-    max-height: 80%;
 }
