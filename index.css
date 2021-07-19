@@ -175,3 +175,7 @@ section{
 .bgimg2{
     background: #d6d6d6;
 }
+.logo{
+    max-width: 80%;
+    max-height: 80%;
+}
