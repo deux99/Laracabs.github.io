@@ -13,7 +13,7 @@
 body{
     font-family: var(--ff-primary);
     font-weight: 1000;
-    font-size: 20px;
+    font-size: 17px;
     line-height: 1.6;
 
 }
@@ -98,7 +98,7 @@ section{
     text-shadow: 0 0 2px red;
 }
 .neon-button{
-    font-size: 20px;
+    font-size: 17px;
     font-family: (--ff-accent);
     display: inline-block;
     cursor: pointer;
@@ -159,16 +159,19 @@ section{
 .card{
     max-height: 100%;
     max-width: 100%;
-    background: #ffdd32;
+    background: #ffe14c;
     padding: 15px;
     border-radius: 20px;
-    
+    box-shadow: 0 0 5px grey;
     margin-bottom: 20px;
     text-align: center;
 }
 .bgimg{
-    background: #ffdd32;
+    background: linear-gradient(#ffe14c, white);
 }
 .headings{
     color: hsl(0, 100%, 60%);
+}
+.bgimg2{
+    background: #d6d6d6;
 }
