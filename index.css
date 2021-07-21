@@ -81,6 +81,10 @@ section{
     .text-left{
         text-align: left;
     }
+    .logo{
+    width: 120px;
+    height: 100px;
+}
  
 }
 .container--narrow{
@@ -139,8 +143,8 @@ section{
 
 }
 .logo{
-    max-width: 80%;
-    max-height: 80%;
+    max-width: 25%;
+    max-height: 25%;
 }
 .preloader{
     background: white ;
@@ -167,7 +171,8 @@ section{
     text-align: center;
 }
 .bgimg{
-    background: linear-gradient(#ffe14c, white);
+    background: linear-gradient(#fdb833,#f6c646, #f9d84a, #fdf051, #fffc54, #fff75e, white);
+    padding-bottom: 150px;
 }
 .headings{
     color: hsl(0, 100%, 60%);
@@ -175,3 +180,8 @@ section{
 .bgimg2{
     background: #d6d6d6;
 }
+header{
+    background: white;
+    
+}
+.
