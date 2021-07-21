@@ -163,7 +163,7 @@ section{
 .card{
     max-height: 100%;
     max-width: 100%;
-    background: #ffe14c;
+    background: linear-gradient(#fdb833, #fffc54);
     padding: 15px;
     border-radius: 20px;
     box-shadow: 0 0 5px grey;
@@ -184,4 +184,3 @@ header{
     background: white;
     
 }
-.
