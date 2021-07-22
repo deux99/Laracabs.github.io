@@ -184,3 +184,34 @@ header{
     background: white;
     
 }
+.neon-button-fleet{
+    font-size: 17px;
+    font-family: (--ff-accent);
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    background: hsl(0, 100%, 60%);
+    border:hsl(0, 100%, 60%) 0.125em solid;
+    padding: .25em 1em;
+    border-radius: 0.25em;
+    text-shadow: 
+    0 0 0.5em hsl(0, 100%, 60%),
+    0 0 0.5em currentColor;
+    box-shadow: inset 0 0 0.5em 0 hsl(0, 100%, 60%), 0 0 0.5em 0 hsl(0, 100%, 60%)
+
+}
+.text-opacity{
+    opacity: 70%;
+}
+.headings2{
+    font-size: 30px;
+   
+}
+.headings3{
+    font-size: 45px;
+    color: hsl(0, 100%, 60%);
+}
+.cta{
+    background: linear-gradient(#fdb833,#f6c646, #f9d84a, #fdf051, #fffc54, #fff75e);;
+}
