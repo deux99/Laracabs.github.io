@@ -213,5 +213,16 @@ header{
     color: hsl(0, 100%, 60%);
 }
 .cta{
-    background: linear-gradient(#fdb833,#f6c646, #f9d84a, #fdf051, #fffc54, #fff75e);;
+    background: linear-gradient(#fdb833,#f6c646, #f9d84a, #fdf051, #fffc54, #fff75e);
 }
+.icon-size{
+    height: 100px;
+    width: 100px;
+}
+.footer{
+        background: linear-gradient(#fdb833,#f6c646, #f9d84a, #fdf051, #fffc54, #fff75e);
+    }
+.link{
+    text-decoration: none;
+    color: black;
+}    
